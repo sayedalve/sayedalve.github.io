@@ -1,118 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-				<style>
-								*{
-								margin:0px;
-								padding:0px;
-								box-sizing:border-box;
-								}
-																
-	header{
-	width:100%;
-	height:100vh;	background:linear-gradient(rgba(18,47,97,0.669),rgba(18,47,97,0.669)),url("https://scontent.fcgp7-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/201446538_334548361640259_4262587956240216333_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=110474&efg=eyJpIjoidCJ9&_nc_ohc=HIZoTtqmNRMAX8xDaYP&_nc_ht=scontent.fcgp7-1.fna&tp=14&oh=49117940bf03919cbc420211aaa71d15&oe=60E9ED38");
-	background-repeat:no-repeat;
-						}			
-						
-		.navbar{
-		   height:10%;
-     display:flex;
-		   }				
-			
-		.nav-left{
-		flex-basis:30%;
-		background:white;
-		}			
-		
-			.nav-right{
-		flex-basis:70%;	
-		position:relative;
-		}			
-		.nav-menu{
-		right:2%;
-		top:15%;
-		position:absolute;
-		}
-		.nav-menu ul li a{	
-	text-decoration:none;
-	color:white;
-	
-	}
-	
-	.nav-menu ul li{
-	display:inline-block;
-	margin-left:15px;
-	}
-	.logo {
-	font-size:50px;
-	}
-		.content{
-		display:flex;
-		height:90%;
-		}
-		
-		
-		.cont-left{
-		flex-basis:30%;
-		background:white;
-		
-		.cont-right{
-		flex-basis:70%;
-		position:relative;
-		}
-		
-		. display{
-		bottom:10px;
-		left:-20%;
-		position:absolute;
-		}
-		.display img{
-		height:50%;
-		width:50%;
-		}
-		
-				</style>
-				
-				
+				<script src="https://kit.fontawesome.com/9332f79b91.js" crossorigin="anonymous"></script>
 				<title>Page title</title>
+				
+	<style>
+					
+		*{
+		padding:0;
+		margin:0;
+		}
+		
+		header{
+		width:100%;
+		height:auto;
+		margin:0 auto;
+		
+		}
+					
+		.nav{
+		width:100%;
+		height:auto;
+		background: #34434b;
+		}
+		
+		.nav ul li {
+		list-style:none;
+		display:inline-block;
+	
+		}
+		
+		.nav ul li a{
+		display:block;
+		padding: 20px 41px;
+		font-size: 20px;
+		font-weight: bold;
+		color: #fff;
+		text-decoration: none;
+		
+		
+		}
+		
+		.nav ul li a:hover{
+		color:black;
+		background:#e54d20;
+		}
+		
+		.banner-cover{
+		background: url("file:///storage/emulated/0/6.jpeg");
+		height:30vh;
+		background-size:cover;
+		background-position:center;
+		background-repeat:no-repeat;
+		}
+		
+		.banner-text{
+		padding:230px;
+		text-align:center;
+		}
+		
+		.banner-text h1{
+		font-weight:190px;
+		font-size:50px;
+		color:white;
+		}
+		
+		.about-logo img{
+width:350px;
+margin-top:-10px;
+
+
+		}
+		
+		.about-text{
+		width:520px;
+		height:auto;
+		padding: 0px 20px;
+		}
+		.about-text h2{
+		font-size:25px;
+		font-weight:bold;
+		text-transform:uppercase;
+		border-bottom:3px solid #fff;
+		margin-bottom:20px;
+		}			
+		
+		.about-text p{
+		font-size:22px;
+		color:grey;
+		line-heigjt:23px;
+		margin-top:35px;
+		margin-bottom:70px;
+		text-align:justify;
+		}
+			.row{
+			overflow:auto;
+			}
+			
+			.col{
+	float:left;
+			}		
+			.about-section{
+			background:lightblue;
+			padding:40px 0px 0px 40px;
+			border:1px solid #000;
+			box-shadow: 4px 0px 4px 0px #000;
+			
+			margin:5px 0px;
+			}
+			
+			.title{
+			width:300px;
+			height:auto;
+			margin: 0 auto;
+			}
+			.title h2{
+			font-size: 40px;
+			font-weight: bold;
+			letter-spacing:2px;
+			text-transform:uppercase;
+			border-bottom: 3px solid #fff;
+			text-align:center;
+			margin-bottom:30px;
+			}
+			
+			
+			
+			.service{
+			width:220px;
+			height:auto;
+			border:1px solid #fff;
+			}
+			
+				.service-section{
+			background:red;
+			}
+			.serv-icon{
+			font-size:40px;
+			
+			}
+			
+	</style>
 </head>
 <body>
-				<header>
-	<div class="navbar">
-			<div class="nav-left">
-							
-							
-			</div>
-		<div class="nav-right">
-						<div class="nav-menu">
-						<ul><li><a href="#">Home</a></li>
-						<li><a href="#">Package</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a class="logo" href="#">ALVE</a></li></ul>
-						</div>
-						
-						
-		</div>
-					
-	</div>		
-	
-	<div class="content">
-					<div class="cont-left">
-									
-									
-					</div>
-					<div class="cont-right">
-							<div class="display">
-				<img src="https://scontent.fcgp7-1.fna.fbcdn.net/v/t1.6435-9/fr/cp0/e15/q65/207198458_334567444971684_4339655461504695520_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=110474&efg=eyJpIjoidCJ9&_nc_ohc=moIOrTEfEfAAX94s8cZ&_nc_oc=AQlLiLY_wKN9HL1QUid3kQC9cInyf0ow3Hn0apVHdhTPWB7upcXCWX1Iud4iS-MMEuw&_nc_ht=scontent.fcgp7-1.fna&tp=14&oh=a763e37eb53664a86e6442bd5de51d16&oe=60E924CF" alt="#">	
-						
-							</div>
-									
-									
-					</div>
-		  
-	</div>
+	<header>
+				<div class="nav">
+					<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">SERVICE</a></li>	
+							 
+							<li><a href="#">PORTFOLIO</a></li>		
+							<li><a href="#">BLOG</a></li>
+							<li><a href="#">CONTACT</a></li>		
+					</ul>			
 								
-				</header>
+				</div>	
+				
+				<div class="banner-cover">
+								
+						<div class="banner-text">
+										<h1>ALVE THE BOSS</h1>
+						</div>
+				</div>
+			
+			<div class="about-section">
+						<div class="title">
+										<h2>About Us</h2>
+										
+						</div>	
+						<div class="about">
+										<div class="row">
+														<div class="col">
+										<div class="about-logo">
+														<img src="file:///storage/emulated/0/7.png" alt="alve">
+														
+										</div></div><div class="col">
+										<div class="about-text">
+														<h2>Lorem ipsum dolor site</h2>
+										
+																		<p>Duiscripta maiestatis egestas deseruisse dolore voluptatibus fastidii consectetur magnis dicta solet repudiandae venenatis.  Vivamusfabellas referrentur feugiat vel malorum utroque nascetur diam alienum mediocrem eripuit dapibus elitr mandamus turpis veri usu pharetra fuisset.  Conguehonestatis scelerisque offendit mea melius te inimicus maximus assueverit sagittis integer atqui eros graeco sollicitudin nonumes sea varius.  Lobortishomero vero singulis qui ac oporteat inciderint curabitur.  .</p> 
+														
+										</div>
+										</div>
+						</div>
+						</div>	
+			</div>		
+			
+			
+			
+			
+			<ddiv class="service-section">
+							<div class="title">
+											<h2>OUR SERVICE</h2>
+							</div>
+		
+		<div class="service">
+						<div class="serv-icon">
+										
+								<i class="fab fa-html5"></i>
+						</div>
+						<h3>Web Design</h3>
+						<p>magnis voluptatibus parturient ocurreret aenean pretium errem dolores quem gubergren laoreet mazim cu melius molestie verterem sapientem eos urna alia detracto fabulas feugiat te inciderint</p>
+		</div>
+		
+							</div>
+	</header>			
 </body>
 </html>
