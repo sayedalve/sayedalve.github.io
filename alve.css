@@ -19,7 +19,8 @@
 		.nav ul li {
 		list-style:none;
 		display:inline-block;
-		margin-top:15px;
+		
+                margin:15px 1px 1px 0px;
 	
 		}
 		
