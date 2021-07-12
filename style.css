@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+Scroll-behavior: smooth;
+}
 
 h1 {
   color: #426696;
