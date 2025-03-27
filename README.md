@@ -20,4 +20,4 @@ Welcome to **GeekSynapse**, your go-to source for the latest in **technology, AI
 🚀 **[What Are VPNs & Why Should You Use One?](https://www.geeksynapse.com/2025/02/what-are-vpns-why-should-you-use-vpn.html)**  
 
 ## Join Us  
-🔗 **[Stay Updated – Subscribe for the latest articles & insights](https://www.geeksynapse.com/subscribe)**  
+🔗 **[Stay Updated – Subscribe for the latest articles & insights](https://www.geeksynapse.com/)**  
